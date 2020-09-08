@@ -136,7 +136,7 @@ function spawnObstacles() {
     var obstacle = createSprite(600,165,10,40);
     obstacle.velocityX = - (6 + 1*score/100);
     
-    //generate random obstacles
+    //generate random obstacle
     var rand = Math.round(random(1,6));
     switch(rand) {
       case 1: obstacle.addImage(obstacle1);
